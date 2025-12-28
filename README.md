@@ -23,7 +23,7 @@ https://youtu.be/6sj8VumyYRg
 ---
 
 ## Run Instructions
-Create a virtual environment, install dependencies from requirements.txt, place match CSV files in the expected data directories, then run streamlit run main.py to launch Pressure Point locally in your browser.
+Create a virtual environment, install dependencies from requirements.txt, then run `streamlit run main.py` to launch Pressure Point locally in your browser.
 
 ---
 
