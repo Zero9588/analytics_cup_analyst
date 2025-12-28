@@ -1,62 +1,28 @@
-# SkillCorner X PySport Analytics Cup
-This repository contains the submission template for the SkillCorner X PySport Analytics Cup **Analyst Track**. 
-Your submission for the **Analyst Track** should be on the `main` branch of your own fork of this repository.
-
-Find the Analytics Cup [**dataset**](https://github.com/SkillCorner/opendata/tree/master/data) and [**tutorials**](https://github.com/SkillCorner/opendata/tree/master/resources) on the [**SkillCorner Open Data Repository**](https://github.com/SkillCorner/opendata).
-
-## Submitting
-Make sure your `main` branch contains:
-
-1. A single Jupyter Notebook in the root of this repository called `submission.ipynb`
-    - This Juypter Notebook can not contain more than 2000 words.
-    - All other code should also be contained in this repository, but should be imported into the notebook from the `src` folder.
-
-
-or,
-
-
-1. A single Python file in the root of this repository called `main.py`
-    - This file should not contain more than 2000 words.
-    - All other code should also be contained in this repository, but should be imported into the notebook from the `src` folder.
-
-or, 
-
-
-1. A publicly accessible web app or website written in a language of your choice (e.g. Javascript)
-
-    - Your code should follow a clear and well defined structure.
-    - All other code should also be contained in this repository.
-    - The URL to the webapp should be included at the bottom of the read me under **URL to Web App / Website**
-
-
-2. An abstract of maximum 300 words that follows the **Analyst Track Abstract Template**.
-3. Add a URL to a screen recording video of maximum 60 seconds that shows your work. Add it under the **Video URL** Section below. (Use YouTube, or any other site to share this video).
-4. Submit your GitHub repository on the [Analytics Cup Pretalx page](https://pretalx.pysport.org)
-
-Finally:
-- Make sure your GitHub repository does **not** contain big data files. The tracking data should be loaded directly from the [Analytics Cup Data GitHub Repository](https://github.com/SkillCorner/opendata). For more information on how to load the data directly from GitHub please see this [Jupyter Notebook](https://github.com/SkillCorner/opendata/blob/master/resources/getting-started-skc-tracking-kloppy.ipynb).
-- Make sure the `submission.ipynb` notebook runs on a clean environment, or
-- Provide clear and concise instructions how to run the `main.py` (e.g. `streamlit run main.py`) if applicable in the **Run Instructions** Section below.
-- Providing a URL to a publically accessible webapp or website with a running version of your submission is mandatory when choosing to submit in a different language then Python, it is encouraged, but optional when submitting in Python.
-
-_⚠️ Not adhering to these submission rules and the [**Analytics Cup Rules**](https://pysport.org/analytics-cup/rules) may result in a point deduction or disqualification._
-
----
-
-## Analyst Track Abstract Template (max. 300 words)
 #### Introduction
+Pressure Point is a defensive analytics web application designed to explain how teams apply pressure and who truly drives it. Rather than relying on generic intensity or distance metrics, the app breaks down pressing and pressure at both team and individual level using detailed on-ball engagement data. By separating individual pressure actions from collective pressing chains, Pressure Point reveals the structure, responsibility, and effectiveness of defensive behaviour within a match.
+
+The focus is not on abstract tactical labels, but on observable actions: who engages the ball carrier, whether that engagement is isolated or part of a team press, and what outcomes those actions produce.
 
 #### Usecase(s)
+Pressure Point supports several core analytical questions. Player Pressure Profiles summarise how often players engage opponents, distinguishing between individual pressure and involvement in team pressing chains, and linking those actions to outcomes such as forcing backward passes, stopping danger, or reducing threat.
+
+Press Setter Share identifies who sets the press—the players initiating team pressing chains—and where on the pitch those actions occur, providing insight into defensive leadership and positional responsibility.
+
+Press Break analysis highlights moments where players fail to engage during an active team press, helping analysts identify weak links or breakdowns in collective behaviour.
+
+Finally, clustering groups players into pressing archetypes based on their engagement patterns, revealing distinct defensive roles within the same team structure.
 
 #### Potential Audience
-
+Pressure Point is built for professional analysts, coaches, and recruitment staff seeking a deeper understanding of pressing behaviour. It also serves students and data practitioners who want a clear, structured way to interpret defensive actions beyond raw physical output, making complex pressing dynamics easier to analyse, compare, and communicate.
 ---
 
 ## Video URL
+https://youtu.be/6sj8VumyYRg
 
 ---
 
 ## Run Instructions
+Create a virtual environment, install dependencies from requirements.txt, place match CSV files in the expected data directories, then run streamlit run main.py to launch Pressure Point locally in your browser.
 
 ---
 
