@@ -14,6 +14,7 @@ Finally, clustering groups players into pressing archetypes based on their engag
 
 #### Potential Audience
 Pressure Point is built for professional analysts, coaches, and recruitment staff seeking a deeper understanding of pressing behaviour. It also serves students and data practitioners who want a clear, structured way to interpret defensive actions beyond raw physical output, making complex pressing dynamics easier to analyse, compare, and communicate.
+
 ---
 
 ## Video URL
