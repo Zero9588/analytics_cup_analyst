@@ -66,7 +66,7 @@ def build_match_labels(game_ids):
 # =========================================================
 # UI
 # =========================================================
-st.title("PRESSURE PROFILE")
+st.title("PRESSURE POINT")
 st.caption("Deep defensive analytics for pressing, pressure, chains and defensive influence.")
 
 with st.sidebar:
